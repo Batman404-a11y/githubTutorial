@@ -1,0 +1,83 @@
+/* Reset body margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+.logo {
+    padding-top: 1%;
+    padding-left: 1%;
+}
+  
+  /* Center the form within the page */
+  form {
+    display: flex;
+    flex-direction: column;  /* Stack the form fields vertically */
+    max-width: 600px;
+    margin: 20px;  /* Spacing around the form */
+    padding: 10px;
+  }
+  
+  /* Layout for the form fields */
+  .form-container {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Two columns: labels and input fields */
+    grid-gap: 10px 20px;  /* Space between rows and columns */
+  }
+  .as-header{
+    color: red;
+    font-size: larger;
+    padding-top: 3%;
+    padding-left: 3%;
+
+  }
+  /* Each field in the form */
+  .field {
+    display: contents;  /* Ensure each label-input pair remains in the same row */
+  }
+  
+  /* Label styling */
+  label {
+    text-align: left;   /* Align label text to the right */
+    padding-right: 10px;  /* Space between label and input */
+    font-weight: normal;  /* No bold font */
+    align-self: center;  /* Center label vertically */
+  }
+  
+  /* Styling for text inputs */
+  input[type="text"] {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc; /* Simple border with no colors */
+    width: 100%;  /* Inputs take up available space */
+    margin-bottom: 5px;  /* Add a small margin below inputs */
+  }
+  
+  /* Specific styling for the "numbers ranging from" fields */
+  .textinput1, .textinput2 {
+    width: 48%;  /* Make inputs sit next to each other */
+    display: inline-block;
+  }
+  
+  /* Submit button styling */
+  input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Simple border for the submit button */
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #f1f1f1;  /* Subtle hover effect */
+  }
+  
+  /* Separator between number inputs */
+  .seperator {
+    margin: 0 10px;
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  

@@ -1,0 +1,12 @@
+{%extends "homeApp/layout.html"%}
+{% block body %}
+    <ul>
+        {% for contentIL in contentsIL %}
+        <li>{{contentIL}}</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'homeApp:haindex' %}"> hi</a>
+{% endblock %}
+
+
+            

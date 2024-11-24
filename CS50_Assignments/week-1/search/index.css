@@ -1,0 +1,106 @@
+body{
+    overflow: hidden;
+}
+form{
+text-align: center;
+padding-top: 10%;
+padding-bottom: 40%;
+}
+a {
+    padding-left: 90%;
+  }
+  
+  .link1, .link2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px; 
+  }
+  
+  .link1 {
+    right: 10%; /* Adjust as needed */
+  }
+  
+  .link2 {
+    right: 0%; /* Adjust as needed */
+  }
+  
+  /* Optionally add some styles to make the links look better */
+  .link1 a, .link2 a {
+    display: inline-block;
+    margin-left: 10px;
+  }
+#textArea{
+    width: 394px;
+    height: 46px;
+    border-radius: 25px;
+}
+#g-search{
+    width: 126.367px;
+    height: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    color: white;width: 126.367px;
+    height: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    color: grey;
+    background-color: rgb(248, 249, 250);
+    border-radius: 4px;
+    cursor: pointer;    
+}
+#g-search:hover{
+    border: 1px solid rgb(167, 164, 164);
+    /* ; */
+    /* border-color: rgb(238, 13, 13); */
+    /* border-width: 12px;
+    border-spacing: 10px; */
+    color: rgb(7, 7, 7);
+    cursor: pointer;
+    user-select: none;
+    background-color: rgba(191, 196, 196, 0.082);
+}
+.button{
+    width: 126.367px;
+    height: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    color: white;width: 126.367px;
+    height: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    color: grey;
+    background-color: rgb(248, 249, 250);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button:hover{
+    border: 1px solid rgb(167, 164, 164);
+    /* ; */
+    /* border-color: rgb(238, 13, 13); */
+    /* border-width: 12px;
+    border-spacing: 10px; */
+    color: rgb(7, 7, 7);
+    cursor: pointer;
+    user-select: none;
+    background-color: rgba(191, 196, 196, 0.082);
+}
+.images-text{
+    color: blue;
+}
+/* #g-search{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+} */
